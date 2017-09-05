@@ -33,3 +33,9 @@ for link in soup.find_all('a'):
 t2 = time.time()
 print("Total Execeution Time: {} Seconds".format)
 ```
+
+## Life of a Thread
+### Threads in Python
+#### Thread State
+Five states:
+- New Thread: In the New Thread state, our thread hasn't started, and it hasn't been allocated resources. 
